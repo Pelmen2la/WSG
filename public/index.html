@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wordsat getter</title>
+    <script src="/script/jquery.min.js"></script>
+    <link href="/css/app.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <h1>Wordstat Getter</h1>
+    <div>Фраза (поддерживает спецсимвол "минус")<input type="text" id="Phrase"></div>
+    Пример: "Купить айфон -бу"<br>
+    <button id="SubmitButton" onclick="onSubmitButtonClick()">
+        Скачать отчет
+    </button>
+    <div id="LoadingPanel" class="loading-panel">
+        <b>Загрузка...</b><br>
+        <img src="/resources/goose.gif">
+    </div>
+
+    <script src="/script/app.js"></script>
+</div>
+</body>
+</html>
